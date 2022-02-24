@@ -9,5 +9,5 @@ spring:
         predicates:
         - Path=/emp/**
       - uri: http://localhost:8081/
-        predicate:
+        predicates:
         - Path=/temp/emp/**
