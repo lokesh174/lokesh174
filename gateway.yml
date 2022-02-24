@@ -1,0 +1,7 @@
+server:
+  port:8090
+spring:
+  cloud:
+    gateway:
+      routes:
+      - uri: http://localhost:8082/
